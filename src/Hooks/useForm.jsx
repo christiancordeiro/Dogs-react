@@ -16,7 +16,7 @@ const useForm = (type) => {
     if (error) validate(target.value)
     setValue(target.value)
   }
-
+  
   function validate(value) {
     if (type === false) return true
     if (value.length === 0) {
