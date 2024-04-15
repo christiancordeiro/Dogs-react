@@ -1,3 +1,5 @@
+import { json } from "react-router-dom"
+
 export const API_URL = "https://dogsapi.origamid.dev/json"
 
 export function TOKEN_POST(body) {
@@ -111,6 +113,19 @@ export function PHOTO_DELETE(id) {
       headers: {
         Authorization: "Bearer " + window.localStorage.getItem("token"),
       },
+    },
+  }
+}
+
+export function PASSWORD_LOST(body) {
+  return {
+    url: `${API_URL}/api/password/lost`,
+    options: {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
     },
   }
 }
