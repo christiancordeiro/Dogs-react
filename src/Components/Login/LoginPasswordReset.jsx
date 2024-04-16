@@ -8,8 +8,8 @@ import Button from "../Form/Button"
 import { useNavigate } from "react-router-dom"
 
 const LoginPasswordReset = () => {
-  const [key, setKey] = useState()
-  const [login, setLogin] = useState()
+  const [key, setKey] = useState("")
+  const [login, setLogin] = useState("")
   const { request, loading, error } = useFetch()
   const password = useForm()
   const navigate = useNavigate()
