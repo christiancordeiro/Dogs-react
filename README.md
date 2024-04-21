@@ -23,4 +23,4 @@ O Dogs é uma rede social dedicada aos nossos queridos amigos de quatro patas. D
 </ul>
 
 ## Links
-URL do site ao vivo: <a href="dogs-react-cyan.vercel.app" target="_blank">Dogs</a>
+URL do site ao vivo: <a href="https://dogs-react-cyan.vercel.app" target="_blank">Dogs</a>
